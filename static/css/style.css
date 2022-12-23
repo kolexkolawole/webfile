@@ -205,7 +205,7 @@ dl, ol, ul {
   /* line-height: 40px; */
   /* width: 208px; */
   /* height: 49px; */
-  margin-left: 200px;
+  margin-left: 25vw;
    /* margin-top: 0; */
   align-items: center;
   display: flex;
@@ -237,7 +237,7 @@ header ul li {
 
 .heading-name{
 	/* color: #000000; */
-	font-weight: 00;
+	/* font-weight: 00; */
 	font-size: 25px;
 	line-height: 40px;
 	/* width: 208px; */
@@ -262,7 +262,7 @@ header ul li {
 }
 
 .heading_link a{
-	color: #000000;
+	/* color: #000000; */
 	align-items: center;
 	padding: 1rem;
 }
@@ -291,12 +291,12 @@ header ul li {
 	padding: center;
 
 }
-.contact-button a:hover{
+/* .contact-button a:hover{
 	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
+} */
 
 .contact-button a{
-
+  
 	/* font-weight: 500; */
 	font-size:15px;
 	/* padding: 15px 15px; */
@@ -305,7 +305,7 @@ header ul li {
 	text-align: right;
 	/* line-height: 32px; */
 	/* identical to box height */
-	color: #cbf800 !important	;
+	color: #c4ec11 !important	;
 	cursor: pointer;
 	text-decoration: none;
 }
@@ -315,14 +315,14 @@ header ul li {
 	/* font-weight: 300; */
 	/* font-size: 16px; */
 	/* padding: 10px 20px; */
-	background: #85e903b2;
+	/* background: #85e903b2; */
 	/* border-radius: 90px; */
 	/* text-align: right; */
 	/* line-height: 32px; */
 	/* identical to box height */
-	color: #f00d0d !important	;
-	cursor: pointer;
-	text-decoration: none;
+	/* color: #f00d0d !important	; */
+	/* cursor: pointer; */
+	/* text-decoration: none; */
 }
 
 
