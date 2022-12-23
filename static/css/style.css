@@ -105,29 +105,29 @@ body {
 
 
 .contact-icons{
-	width: 10px;
+	
   /* display: flex; */
-	height: 10px;
-margin: 10R;
+	width: 5%;
+/* margin: 10; */
+height: 5%;
 	/* box-sizing: border-box; */
 
 }
-/* @media screen and (max-width: 405px){
+ /* @media screen and (max-width: 405px){
   .heading-name{
     width: 90% !important;
-    /* display: flex; */
-    /* position: fixed; */
-
-  /* } */ */
+    display: flex;
+   position: fixed; 
+}  */
 
 /* @media screen and (max-width: 100%){
-  .header{
-    width: 65% !important;
-    /* display: flex; */
-    /* position: fixed; */
+  .sidebar{
+    width: 50% !important;
+    display: flex; 
+    position: fixed; 
 
-  } */
-
+  }
+} */
 
 /* header adjustment */
 a:hover{
@@ -364,36 +364,14 @@ header ul li {
 	color:#FF7A00 ;
 	text-decoration: none;
 }
-.slider-cont{
-	/* background-image: url("../images/background.png"); */
-	background-position: right top;
-    background-size: cover;
-    background-repeat: no-repeat;
-  
-   
+
+
+
+
+.contact-icons{
+  display: flex;
+  /* width: 20%; */
 }
-.slider-cont .portfolio_link, .slider-cont .download_cv_link, .about_section .about_section_desc .about_section_main_desc .about_section_desc_link{
-	font-weight: 700;
-	font-size: 1rem;
-	line-height: 32px;
-	/* identical to box height */
-	color: #FFFFFF;
-	background: #FF7A00;
-	border-radius: 90px;
-	border-color: transparent;
-	padding: 0.8rem 1rem;
-}
-.slider-cont .download_cv_link {
-	background: #000000;;
-}
-.slider-cont .portfolio_link:hover, .slider-cont .download_cv_link:hover, .about_section .about_section_desc .about_section_main_desc .about_section_desc_link:hover {
-	box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
-}
-
-
-
-
-
 
 
 
@@ -411,12 +389,13 @@ align-items: center;
 	/* margin-top: 90px; */
 }
 
- .sideBar, [data-is="mediacenter"] .sideBar {
+
+ .sideBar, [data-is="mediacenter"] .sideBar{
     position: fixed;
     /* left: 0px; */
     top: 85px;
-    /* width: 15%; */
-	height: 90%;
+    width: 15%;
+	  height: 100%;
     /* overflow: auto; */
     background-color: hwb(0 4% 19% / 0.376);
     text-align: center;
@@ -432,14 +411,17 @@ align-items: center;
 }
  .sideBar *, [data-is="mediacenter"] .sideBar * {
     color: #FFF;
+    width: 60px;
+
+    
 }
 .sideBar .menuBox ul li {
     float: left;
-    width: 100%;
+    /* width: 100%; */
     padding: 10px 0px;
     cursor: pointer;
     border-radius: 3px;
-    margin-bottom: 2px;
+    margin-bottom: 30%;
 }
 
 
