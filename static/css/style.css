@@ -5,6 +5,7 @@
 	box-sizing: border-box;
 	font-family: 'Montserrat';
 	font-style: normal;
+  
 	
 }
 
@@ -23,23 +24,32 @@ main {
 
 
 /* body adjustment */
-body {
-  /* margin-top: 5%; */
+
+main-1 .hero-container{
   
+  /* background-image: cross-fade(./curve1.png); */
   box-sizing: border-box;
 	align-items: center;
-/* padding-left: 10%; */
-/* display: flex; */
-	/* width: 90%; */
+/* padding-right: 10%; */
+display: flex;
+	width: 80%;
 	height: 100%;
-	justify-content: center;
+  /* padding-top: 10px; */
+
+    margin-left: 20%;
+    
+    align-items: center;
+    text-align: center;
+	position: center;
+  justify-content: center;
+	
 	/* margin-left: 10%; */
 	/* margin-right: 5%; */
-    animation: theme 21s linear infinite;
+    animation: theme 35s linear infinite;
     /* margin-top: 5px; */
     /* &:before, */
   }
-  &:after {
+  ::after {
         /* left: 15vw; */
 
         /* content: ''; */
@@ -56,7 +66,7 @@ body {
 	}
 
 
-    &:before {
+    ::before {
         right: 15vw;
         animation-delay: -30s;
         animation-direction: reverse;
@@ -68,23 +78,23 @@ body {
         background: #1b2e2248;
     }
     
-    16% {
+    0% {
         background: #f7ca9062;
     }
     
-    33% {
+    30% {
         background: #2347385e;
     }
     
     50% {
-        background: hsl(280, 30%, 76%);
+        background: hsla(282, 7%, 55%, 0.324);
     }
     
-    66% {
-        background: #e6bcc5;
+    50% {
+        background: #e6bcc546;
     }    
     
-    83% {
+    80% {
         background: #6d6969;
     }
 
@@ -104,6 +114,20 @@ body {
 }
 
 
+
+
+.copyright{
+  /* display: flex; */
+  width: 70%;
+  height: 90%;
+  justify-content: center;
+  margin-left: 25%;
+  margin-right: 5%;
+  animation: theme 21s linear infinite;
+  /* margin-top: 25%; */
+  /* &:before, */
+
+}
 .contact-icons{
 	
   /* display: flex; */
@@ -176,21 +200,13 @@ a:hover{
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    /* padding-left: 0; */
-    /* margin-bottom: 0; */
-    /* list-style: none; */
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
 }
-dl, ol, ul {
-    margin-top: 0;
-    margin-bottom: 1rem;
-}
-* {
-    font-family: 'Montserrat';
-    font-style: normal;
-}
-*, ::after, ::before {
-    box-sizing: border-box;
-}
+
+
+
 
 
 
@@ -298,16 +314,18 @@ header ul li {
 
 .contact-button a{
   
-	/* font-weight: 500; */
+	/* font-weight: 500px; */
 	font-size:15px;
 	/* padding: 15px 15px; */
-	background: #f175009d;
+	background:#000000ce;
 	border-radius: 5px;
 	text-align: right;
 	/* line-height: 32px; */
 	/* identical to box height */
-	color: #c4ec11 !important	;
+	color: #e5d1d1 !important	;
 	cursor: pointer;
+  
+
 	text-decoration: none;
 }
 
@@ -324,7 +342,7 @@ header ul li {
 	/* color: #f00d0d !important	; */
 	/* cursor: pointer; */
 	/* text-decoration: none; */
-}
+/* } */
 
 
 
@@ -361,7 +379,7 @@ header ul li {
 
 }
 .responsive_mobile_links ul li a:hover{
-	color:#FF7A00 ;
+	color:#ff0000 ;
 	text-decoration: none;
 }
 
@@ -374,47 +392,25 @@ header ul li {
 }
 
 
-
-
-
-
-.hero-container {
-    /* padding: 10px; */
-    /* width: 70%; */
-    margin-left: 20%;
-    margin-right: 5%;
-align-items: center;
-    text-align: center;
-	padding-top: 10%;
-	/* margin-top: 90px; */
-}
-
-
  .sideBar, [data-is="mediacenter"] .sideBar{
     position: fixed;
     /* left: 0px; */
-    top: 11%;
+    top: 75px;
     width: 20%;
-	  height: 100%;
-    animation: theme 20s linear infinite;
+	  height: 90%;
+    /* animation: theme 20s linear infinite; */
     /* overflow: auto; */
-    background-color: hwb(0 4% 19% / 0.376);
+    /* background-color: hwb(0 4% 19% / 0.376); */
     text-align: center;
 	display: block;
+  /* float: left; */
 }
 
-/* .sideBar .menuBox { */
-    /* float: left; */
-    /* width: calc(100% - 30px); */
-    /* padding: 30px 15px; */
-}
-.sideBar h3 {
-    /* margin-left: ; */
-}
  .sideBar *, [data-is="mediacenter"] .sideBar * {
-    color: #FFF;
+    color: rgba(10, 7, 6, 0.89);
     width: 90%;
-
+    /* height: 50%; */
+    animation: theme 21s linear infinite;
     
 }
 

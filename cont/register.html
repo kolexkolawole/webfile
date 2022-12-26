@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>ABOUT</title>
-  <link href="index.css" rel="stylesheet" type="text/css" />
+  <link href="css/style.css" rel="stylesheet" type="text/css" />
   
 </head>
 
@@ -16,12 +16,12 @@
   <div class="nav">
     <ul>
         <a href="https://HTML-and-CSS-driven-website.kolexkolawole.repl.co">
-  <img src="https://tinyurl.com/95c6xp36" width=125 height=100px align=left alt="logo">
+  <img src="/kolex.png" width=125 height=100px align=left alt="logo">
      </ul>
     <ul class="quick-access">
       
       <li>
-       <a href="index.html" style="text-decoration: none;"><b>ABOUT</b></a>
+       <a href="../index.html" style="text-decoration: none;"><b>Blogpost</b></a>
       </li>
       <li>
         <h2> <a href="register.html" style="text-decoration: none;"><b>REGISTER</b></a></h2>
@@ -40,18 +40,20 @@
       <div class="column">
 
       <form action="index.css" method="post">
-        <h1><b> REGISTER</b> </h1>
+      
+        <h2><b> Register to have an account with Us:</b> </h2>
         
         <fieldset>
           
           <legend><b> Your Basic Info</b></legend>
           <br>
      <form action="/action_page.php">   
-          <label for="name">First Name:</label>
-          <input type="text" id="name" name="user_name">
-            <label for="name">Last Name:</label>
-          <input type="text" id="name" name="user_name">
-
+          <input type="text" placeholder="First Name:"/>
+          <input type="text" placeholder="Last Name:"/>
+          <!-- <input type="text" id="name" name="user_name"/> -->
+            <!-- <label for="name"></label> -->
+          <!-- <input type="text" id="name" name="user_name"> -->
+     
 
           <label>Age:</label>
           <input type="radio" id="under_18" value="under_18" name="user_age"><label for="under_18" class="light">Under 18</label><br>
@@ -60,18 +62,18 @@
 
 
        <label for="cars">Choose Your country:</label>
-  <select name="country" id="country">
+  <select name="country" id="country" >
     <option value="country">Nigeria</option>
     <option value="country">Sounth Africa</option>
     <option value="country">Algeria</option>
     <option value="country">united states</option>
   </select>
-  <br><br
+  
 
 
 
   <label for="State">State/Province:</label>
-          <input type="text" id="name" name="State/Province">
+          <input type="text" id="name" placeholder=State/Province>
 
         
 
@@ -83,7 +85,6 @@
     <option value="Both">Transgender</option>
     <option value="none">Dont want to share</option>
   </select>
-  <br><br>
 
        
   <label for="phone">Phone Number:</label><br>
@@ -93,18 +94,17 @@
   <input type="text" id="fname" name="fname" value="@"><br>
           
   <label for="password">Password:</label>
-          <input type="password" id="password"       name="user_password">
-       
+          <input type="password" id="password"  name="user_password" placeholder="qwerty?..">
+          
           <label for="password">Confirm:</label>
-          <input type="password" id="password"       name="user_password">
+          <input type="password" id="password"       name="user_password" placeholder="repeat">
         
           
           
         </fieldset>
         <fieldset>  
         
-          <legend><b> Your Profile</b></legend>
-          <br></br>
+          <!-- <legend><b> Your Profile</b></legend> -->
           
          <label for="bio">Bio:</label>
           <textarea id="bio" name="user_bio"></textarea>
@@ -129,6 +129,8 @@
             <optgroup label="Business">
               <option value="business_owner">Business Owner</option>
               <option value="freelancer">Freelancer</option>
+            </optgroup>
+            <optgroup label="Others">
             </optgroup>
           </select>
           
