@@ -176,7 +176,7 @@ header ul li {
 	animation: up_s 4s ease-in-out infinite;
 }
 .services_section .services_cards_section .card.services_pb{
-	/* padding-bottom: 72px; */
+	padding-bottom: 72px;
 }
 
 .services_section .services_cards_section .card .cont_services_img{
