@@ -120,6 +120,9 @@ header ul li {
   
    
 }
+.flex-1{
+	 display: flex;
+}
 .slider-cont .portfolio_link, .slider-cont .download_cv_link, .about_section .about_section_desc .about_section_main_desc .about_section_desc_link{
 	font-weight: 700;
 	font-size: 1rem;
