@@ -166,20 +166,24 @@ header ul li {
 	/* display: flex; */
     /* align-items: center; */
     /* justify-content: center; */
-    width: 600px;
-    height: 450px;
-    border-radius: 80%;
+	position: relative;
+	margin-top: 0;
+    width: 500px;
+	margin: 20px;
+    height: 435px;
+    border-radius: 50%;
     border: 5px solid #ff4400;
+	animation: up_s 4s ease-in-out infinite;
 }
 .services_section .services_cards_section .card.services_pb{
-	padding-bottom: 72px;
+	/* padding-bottom: 72px; */
 }
 
 .services_section .services_cards_section .card .cont_services_img{
 
 	background: #FFFFFF;
 	border-radius: 200px;
-	align-items: center;
+	/* align-items: center; */
 	box-sizing: content-box;
 	width: 50px;
 	padding: 10px;
